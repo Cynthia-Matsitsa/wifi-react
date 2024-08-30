@@ -50,7 +50,8 @@
     display: flex;
     gap: 400px;
     margin-left: 5%;
-    margin-top: -3%;
+    margin-top: 10%;
+
 }
 .Facebook{
     width: 70px;
@@ -91,7 +92,7 @@
         justify-content: center;
         padding: 12px;
         border: solid;
-        background-color:darkblue;
+        background-color:rgb(42, 42, 106);
         border-style: hidden;
         color: white;
        

@@ -1,0 +1,235 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal1 {
+    background-color: #FEFEFE;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .cancel {
+    background-color: #F44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .cancel:hover {
+    background-color: #D32F2F;
+  }
+  .title{
+      font-size: 75px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: bold;
+      text-align: center;
+  }
+  .introduction{
+      font-size: 25px;
+      text-align:left;
+      margin-top: 60px;
+      width: 550px;
+      background-color: #2fdcdf;
+  }
+  #book{
+      display: flex;
+      gap: 10%;
+      /* align-content: center; */
+      justify-content: space-around;
+      height: 500px;
+      background-color: #4fd8db;
+      width: 1000px;
+      height: 490px;
+      margin-left: 25%;
+  }
+  .readmore{
+      border-radius: 12px;
+      width: 100px;
+      height: 55px;
+      margin-top:1% ;
+      margin-right: 10%;
+      background-color: rgb(38, 38, 118);
+      color: beige;
+      font-size: 20px;
+  }
+  .cancel{
+      border-radius: 12px;
+      width: 100px;
+      height: 55px;
+      margin-top:1% ;
+      background-color: rgb(223, 16, 16);
+      color: beige;
+      font-size: 20px;
+  }
+  .novel img{
+      width: 250px;
+      height: 350px;
+      /* object-fit: cover; */
+      margin-top: 80px;
+  }
+  .summary{
+      font-size: 25px;
+      text-align: justify;
+  }
+  .h1{
+      font-style: bold;
+  }
+  /* .modal-content {
+    background-color: #EAE9F0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: -19%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  } */
+  @media only screen and (min-width: 1200px) {
+      .title {
+        font-size: 75px;
+      }
+      .introduction {
+        font-size: 25px;
+        width: 550px;
+      }
+      #book {
+        width: 1000px;
+        height: 490px;
+        margin-left: 25%;
+      }
+      .readmore {
+        width: 125px;
+        height: 55px;
+      }
+      .novel img {
+        width: 250px;
+        height: 350px;
+      }
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .title {
+        font-size: 65px;
+      }
+      .introduction {
+        font-size: 22px;
+        width: 500px;
+      }
+      #book {
+        width: 90%;
+        height: 450px;
+        margin-left: 5%;
+      }
+      .readmore {
+        width: 110px;
+        height: 50px;
+      }
+      .novel img {
+        width: 220px;
+        height: 320px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .title {
+        font-size: 55px;
+      }
+      .introduction {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 40px;
+      }
+      #book {
+        width: 95%;
+        height: 400px;
+        margin-left: 2.5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .readmore {
+        width: 100px;
+        height: 45px;
+        font-size: 18px;
+      }
+      .novel img {
+        width: 200px;
+        height: 300px;
+        margin-top: 40px;
+      }
+      .summary {
+        font-size: 20px;
+        padding: 15px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .title {
+        font-size: 40px;
+      }
+      .introduction {
+        font-size: 18px;
+        width: 90%;
+        margin-top: 30px;
+      }
+      #book {
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .readmore {
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+      }
+      .novel img {
+        width: 180px;
+        height: 270px;
+        margin-top: 30px;
+      }
+      .summary {
+        font-size: 18px;
+        text-align: left;
+        padding: 15px;
+      }
+    }
